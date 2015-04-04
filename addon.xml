@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="Ultra.Sports"
+  version="2.0.1"
+  name="Ultra Sports"
+  provider-name="Unknown">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summar> quality streams on your </summary>
+    <description>** No streams are hosted by Ultra Box, Ultra Sports or any affiliates of those mentioned.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

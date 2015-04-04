@@ -1,0 +1,21 @@
+<html>
+						<head>
+						<title>Enter</title>
+						<script type="text/javascript">
+							function setFocus()
+							{
+								document.getElementById("captcha").focus();
+							}
+						</script>
+						</head>
+						<body onload="setFocus()">
+							<form method="POST" style="margin: 0 auto; width:550px; padding-top:150px;">
+							<h1>To prove that you are not bot, please answer the question to continue</h1><br />
+							
+							<br />
+								Question: 5 + 5 =<br /><br />
+								Enter answer on question: <input align="center" type="text" name="captcha" id="captcha" style="width: 122px;" />
+								<input type="submit" value="Enter" style="width: 50px;" />
+							</form>
+						</body>
+						</html>

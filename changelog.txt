@@ -1,0 +1,6 @@
+Version 3.0.0	(11/06/14)
+*	Replaced my custom list of TV channels with more reliable scrapers.
+*	Added HQZone
+*	Fixed Wrestling and MMA Replays
+*	Added new sources
+*	Added Favourites function
